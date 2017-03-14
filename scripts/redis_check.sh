@@ -1,5 +1,6 @@
 #!/bin/bash
 ###/etc/keepalived/scripts/redis_check.sh
+
 ALIVE=`/usr/bin/redis-cli PING`
 LOGFILE="/var/log/keepalived-redis-check.log"
 pid=$$

@@ -1,5 +1,6 @@
 #!/bin/bash
 ###/etc/keepalived/scripts/redis_master.sh
+
 REDISCLI="redis-cli"
 LOGFILE="/var/log/keepalived-redis-state.log"
 pid=$$

@@ -1,4 +1,6 @@
 #!/bin/bash
+###/etc/keepalived/scripts/redis_fault.sh
+
 LOGFILE="/var/log/keepalived-redis-state.log"
 pid=$$
 
