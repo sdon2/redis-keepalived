@@ -1,4 +1,4 @@
-`Simple setup using Keepalived for Redis HA`
+## Simple setup using Keepalived for Redis HA ##
 
 Uses redis-cli for failover.
 
