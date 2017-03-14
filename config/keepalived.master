@@ -19,8 +19,10 @@ vrrp_instance rk {
             chk_redis
         }
         virtual_ipaddress {
+            # Replace with Virtual IP
             172.16.24.74/24 dev eno1
         }
+        # Configure master and backup IPs
         notify_master "/etc/keepalived/scripts/redis_master.sh 172.16.24.72 6379"
         notify_backup "/etc/keepalived/scripts/redis_backup.sh 172.16.24.73 6379"
         notify_fault  /etc/keepalived/scripts/redis_fault.sh
