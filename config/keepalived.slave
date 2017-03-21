@@ -13,7 +13,7 @@ vrrp_instance rk {
         state BACKUP
         interface eno1
         virtual_router_id 54
-        priority 100
+        priority 98
         advert_int  1
         track_script {
             chk_redis
