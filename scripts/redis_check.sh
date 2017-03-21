@@ -2,7 +2,7 @@
 ###/etc/keepalived/scripts/redis_check.sh
 
 ALIVE=`/usr/local/bin/redis-cli PING`
-LOGFILE="/var/log/keepalived-redis-check.log"
+LOGFILE="/var/log/keepalived/keepalived-redis-check.log"
 pid=$$
 
 for ((i=0; i<2; i++))
