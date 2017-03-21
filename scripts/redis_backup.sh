@@ -1,7 +1,7 @@
 #!/bin/bash
 ###/etc/keepalived/scripts/redis_backup.sh
 
-REDISCLI="/usr/bin/redis-cli"
+REDISCLI="/usr/local/bin/redis-cli"
 LOGFILE="/var/log/keepalived/keepalived-redis-state.log"
 pid=$$
 host=$1
